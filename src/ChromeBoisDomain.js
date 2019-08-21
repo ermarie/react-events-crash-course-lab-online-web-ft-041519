@@ -44,8 +44,8 @@ export default class ChromeBoisDomain extends Component {
         width='900'
         height='600'
         tabIndex="0"
-        onClick='handleClick'
-        onKeyPress='handleKey'>
+        onClick={this.handleClick}
+        onKeyPress={this.handleKey}>
       </canvas>
     )
   }
