@@ -18,7 +18,7 @@ export default class ChromeBoisDomain extends Component {
    * listener that should fire it!
    */
   handleClick = (e) => {
-    e.preventDefault()
+    console.log(e)
     toggleCycling()
   }
    
@@ -29,7 +29,7 @@ export default class ChromeBoisDomain extends Component {
   /* if the key pressed was 's', then it should call `resize` with '-' 
    */
   handleKey = (e) => {
-    e.preventDefault()
+    console.log(e)
     if (e.key === "a") {
       resize('+')
     } else if (e.key === 's') {
